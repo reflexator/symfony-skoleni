@@ -1,3 +1,10 @@
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
+
+another_skoleni_page:
+    path: /skoleni/dalsi-stranka
+    defaults: { _controller: AppBundle:Skoleni:another }
+
+logout:
+    path: /logout
